@@ -5,9 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
       <nav>
-        <h1 class="naam">KELLY <br> PEETERS</h1>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/work">Work</RouterLink>
@@ -22,16 +20,6 @@ import { RouterLink, RouterView } from 'vue-router'
 header {
   line-height: 1.5;
   max-height: 100vh;
-}
-
-.naam {
-  width: 70%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-  color: #bd0026;
-  font-weight: 900;
-  font-size: 1.4em;
 }
 
 nav {

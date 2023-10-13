@@ -1,13 +1,19 @@
-<template>
-  <div class="about">
-    <h1>About me</h1>
-    <p>Mijn ambitie om creativiteit te beleven en tegemoet te komen aan de werkelijke 
-      behoeften van mensen als het gaat om mediaconsumptie, heeft ertoe geleid dat ik 
-      mijn bachelor Multimedia & communicatietechnologie heb afgerond en momenteel
-      de opleiding Media & informationdesign volg.</p>
-    </div>
+<script setup>
+</script>
 
-    <div class="wrapper">
+<template>
+  <main> 
+
+<div>
+  <h1 class="titel">KELLY <br> PEETERS</h1>
+</div>
+
+  <div>
+  <p> Hallo, </P>
+  <p> Ik ben Kelly Peeters, <br> een grafisch designer student <br> gespecialiseerd in datavisualisatie. </P>
+  </div>
+
+  <div class="wrapper">
 <ul>
   <li>
     <input type="checkbox" id="list-item-1">
@@ -44,15 +50,15 @@
   </li>
 </ul>
 </div>
+  </main>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<style scoped>
+
+.titel{
+  letter-spacing: 0.4em;
+  font-size: 52px;
+  float: left;
 }
 .wrapper{
   margin: 10% auto;
@@ -111,4 +117,5 @@ input[type="checkbox"]:checked + label{
   background: white;
   border-bottom: 1px solid #fff;
 }
+
 </style>
